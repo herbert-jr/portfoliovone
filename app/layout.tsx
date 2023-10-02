@@ -1,3 +1,5 @@
+import Header from "./components/header";
+import { AppProvider } from "./context";
 import "./globals.scss";
 import type { Metadata } from "next";
 
@@ -13,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AppProvider>
+          <Header />
+          {children}
+        </AppProvider>
+      </body>
     </html>
   );
 }

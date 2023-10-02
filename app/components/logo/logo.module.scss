@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  & img:nth-child(1) {
+    border-radius: 50%;
+    background-color: var(--text-color);
+  }
+
+  & span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-left: 0.8rem;
+    margin-right: 0.4rem;
+    font-family: var(--font-playfair);
+    transition: color 0.2s ease;
+  }
+
+  &:hover {
+    & span {
+      color: var(--primary-color);
+    }
+  }
+}

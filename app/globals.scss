@@ -130,6 +130,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+}
+
+a {
+  color: var(--text-color);
 }
 
 html,
@@ -138,6 +143,33 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  color: var(--text-color);
+}
+
 body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-system);
+  font-size: clamp(1.6rem, 1rem + 1vw, 1.8rem);
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-left: var(--border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color-off);
+  border-radius: 50px;
 }
