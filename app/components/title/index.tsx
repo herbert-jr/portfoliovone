@@ -8,7 +8,7 @@ type ColorType = {
 type TitleProps = {
   subtitle: string;
   title: string;
-  type: string;
+  type: "principal" | "alternative" | "primary";
 };
 
 const colors: ColorType = {

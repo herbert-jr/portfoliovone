@@ -1,5 +1,5 @@
 .title__principal,
-.title_alternative {
+.title__alternative {
   width: 100%;
   margin-bottom: 1.6rem;
   text-align: start;
@@ -25,7 +25,7 @@
 }
 
 .title__principal,
-.title_alternative {
+.title__alternative {
   & span {
     color: var(--primary-color);
   }
