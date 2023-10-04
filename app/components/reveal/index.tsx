@@ -10,7 +10,7 @@ type RevealProps = {
 function Reveal({ children }: RevealProps) {
   const controls = useAnimation();
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView) {
@@ -31,7 +31,7 @@ function Reveal({ children }: RevealProps) {
             opacity: 1,
             y: 0,
             transition: {
-              duration: 0.5,
+              duration: 1,
             },
           },
         }}

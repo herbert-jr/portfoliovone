@@ -4,16 +4,19 @@ import styles from "./projects.module.scss";
 import React from "react";
 import Title from "../title";
 import SectionButton from "../buttons/sectionButton";
+import Reveal from "../reveal";
 
 function Projects() {
   return (
     <section className={styles.projects}>
       <article className={styles.article}>
-        <Title
-          title="Meus projetos"
-          subtitle="Alguns projetos pessoais"
-          type="alternative"
-        />
+        <Reveal>
+          <Title
+            title="Meus projetos"
+            subtitle="Alguns projetos pessoais"
+            type="alternative"
+          />
+        </Reveal>
         <div className={styles.projects_container}>
           <Card
             name="portfolio"

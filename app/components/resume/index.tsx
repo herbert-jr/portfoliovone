@@ -7,7 +7,7 @@ import Reveal from "../reveal";
 
 function Resume() {
   return (
-    <section className={styles.resume}>
+    <section className={styles.resume} id="resume">
       <Reveal>
         <Title
           title="Um pouco sobre mim."

@@ -1,3 +1,4 @@
+import Contacts from "./components/contacts";
 import HeroSection from "./components/hero";
 import Projects from "./components/projects";
 import Resume from "./components/resume";
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <Resume />
       <Projects />
+      <Contacts />
     </main>
   );
 }
