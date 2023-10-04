@@ -1,0 +1,16 @@
+.link {
+  text-transform: uppercase;
+
+  padding: 1.4rem 2.8rem;
+  font-size: 1.4rem;
+  border: 1.5px solid var(--primary-color-border);
+  border-radius: 3rem;
+  color: var(--primary-color);
+  transition: all 0.5s;
+
+  &:hover {
+    border: 1.5px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+}

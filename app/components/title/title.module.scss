@@ -1,0 +1,36 @@
+.title__principal,
+.title_alternative {
+  width: 100%;
+  margin-bottom: 1.6rem;
+  text-align: start;
+  & span {
+    font-size: clamp(1.6rem, 5vw, 2rem);
+  }
+
+  & h2 {
+    font-size: clamp(3.2rem, 6vw, 4.8rem);
+    font-family: var(--font-playfair);
+    font-weight: 900;
+  }
+}
+
+.title__principal {
+  & span {
+    color: var(--primary-color);
+  }
+
+  & h2 {
+    color: var(--headline-color);
+  }
+}
+
+.title__principal,
+.title_alternative {
+  & span {
+    color: var(--primary-color);
+  }
+
+  & h2 {
+    color: var(--headline-color-alternative);
+  }
+}

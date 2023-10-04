@@ -16,6 +16,7 @@
   --headline-color-alternative: #444444;
   --primary-color: #ff5470;
   --primary-color-off: #ff3859;
+  --primary-color-border: #fc8d9f;
   --secondary-color: #ffa500;
   --ternary-color: #00c853;
   --border: 1px solid #373a3c80;
@@ -31,6 +32,7 @@
   --headline-color-alternative: #cccccc;
   --primary-color: #7f5af0;
   --primary-color-off: #6a3fec;
+  --primary-color-border: #9d82ee;
   --secondary-color: #3acce1;
   --ternary-color: #32a5ce;
   --border: 1px solid #ffffff8c;
@@ -46,6 +48,7 @@
   --headline-color-alternative: #001858;
   --primary-color: #f582ae;
   --primary-color-off: #fa629c;
+  --primary-color-border: #f8aeca;
   --secondary-color: #8bd3dd;
   --ternary-color: #c3f0ca;
   --border: 1px solid #172c668c;
@@ -61,6 +64,7 @@
   --headline-color-alternative: #263238;
   --primary-color: #ff6f00;
   --primary-color-off: #ff8f00;
+  --primary-color-border: #f8a565;
   --secondary-color: #009688;
   --ternary-color: #4caf50;
   --border: 1px solid #3333337e;
@@ -76,6 +80,7 @@
   --headline-color-alternative: #fffffe;
   --primary-color: #e78fb3;
   --primary-color-off: #e7689d;
+  --primary-color-border: #f5c3d8;
   --secondary-color: #ffc0ad;
   --ternary-color: #9656a1;
   --border: 1px solid #fffffe7e;
@@ -91,6 +96,7 @@
   --headline-color-alternative: #00a0df;
   --primary-color: #ffd700;
   --primary-color-off: #ecc900;
+  --primary-color-border: #f8e88a;
   --secondary-color: #ff4500;
   --ternary-color: #00ff00;
   --border: 1px solid #adadad85;
@@ -106,6 +112,7 @@
   --headline-color-alternative: #ebf5ec;
   --primary-color: #ff8c00;
   --primary-color-off: #ec8200;
+  --primary-color-border: #f3c083;
   --secondary-color: #8b008b;
   --ternary-color: #32cd32;
   --border: 1px solid #ffffff85;
@@ -121,6 +128,7 @@
   --headline-color-alternative: #ffffff;
   --primary-color: #ffff00;
   --primary-color-off: #e4e40f;
+  --primary-color-border: #ffff71;
   --secondary-color: #da0000;
   --ternary-color: #ff69b4;
   --border: 1px solid #ffffff85;
@@ -147,7 +155,6 @@ body {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
   color: var(--text-color);
 }
 

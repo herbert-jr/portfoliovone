@@ -5,19 +5,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  position: relative;
 
   &::before {
     content: "";
     position: absolute;
-    top: 50%;
+    bottom: 0;
     left: 0;
-    height: 5px;
+    height: 50vh;
     background-color: var(--primary-color);
     width: 100vw;
-    transform: translateX(110%);
     animation: line 5s ease;
-    z-index: 1;
+    z-index: -1;
   }
 }
 
@@ -40,11 +38,12 @@
   font-family: var(--font-playfair);
 
   & span {
-    color: var(--primary-color);
+    color: var(--text-color);
   }
 
   &:nth-child(1) {
-    animation: entrySub 4s ease-in-out forwards;
+    animation: entrySub 6s ease-in-out forwards;
+    color: var(--background-color);
   }
 
   &:nth-child(2) {
@@ -57,7 +56,9 @@
   font-weight: 300;
   line-height: 1.3;
   margin-top: -0.5rem;
-  animation: entrySub 4s ease-in-out forwards;
+  color: var(--background-color);
+
+  animation: entrySub 6s ease-in-out forwards;
 }
 
 .hero__article__title {
@@ -93,8 +94,8 @@
   transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 2px var(--primary-color) solid;
-  border-bottom: 2px var(--primary-color) solid;
+  border-right: 2px var(--background-color) solid;
+  border-bottom: 2px var(--background-color) solid;
 }
 
 .arrow:before {
@@ -104,8 +105,8 @@
   top: 50%;
   border-left: none;
   border-top: none;
-  border-right: 1px var(--primary-color) solid;
-  border-bottom: 1px var(--primary-color) solid;
+  border-right: 1px var(--background-color) solid;
+  border-bottom: 1px var(--background-color) solid;
   animation: arrow 2s ease-in-out infinite;
 }
 
@@ -120,23 +121,36 @@
 }
 
 @keyframes line {
-  0%,
-  100% {
+  0% {
+    top: 50%;
+    height: 3px;
     transform: translateX(100%);
   }
-  30%,
-  90% {
+
+  50% {
+    top: 50%;
+    height: 3px;
     transform: translateX(0);
   }
+
+  100% {
+    top: 50%;
+    transform-origin: top;
+    height: 50vh;
+  }
+  // 30%,
+  // 90% {
+  //   transform: translateX(0);
+  // }
 }
 
 @keyframes entry {
   0%,
-  50% {
+  60% {
     transform: translateY(199px);
   }
-  60%,
-  65% {
+  70%,
+  75% {
     transform: translateY(140px);
   }
 
@@ -147,11 +161,11 @@
 
 @keyframes entrySub {
   0%,
-  50% {
+  60% {
     transform: translateY(-199px);
   }
-  60%,
-  65% {
+  70%,
+  75% {
     transform: translateY(-140px);
   }
 
