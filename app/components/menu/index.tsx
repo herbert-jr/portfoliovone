@@ -33,7 +33,7 @@ function Menu() {
           </Link>
         </li>
         <li className={styles.menu_contacts}>
-          <Link href="#contatos" className={styles.menu_link}>
+          <Link href="/#contatos" className={styles.menu_link}>
             Contatos
           </Link>
         </li>

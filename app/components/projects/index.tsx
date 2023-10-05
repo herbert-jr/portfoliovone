@@ -67,12 +67,12 @@ function Projects() {
             title="Meu Portfólio"
           />
         </div>
-        <SectionButton
-          arial="Ir para projetos"
-          path="/projetos"
-          text="Ver mais"
-        />
       </article>
+      <SectionButton
+        arial="Ir para projetos"
+        path="/projetos"
+        text="Ver mais"
+      />
     </section>
   );
 }

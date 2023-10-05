@@ -1,0 +1,528 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/contacts/contacts.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.contacts_contacts__oNnfV {
+  width: 100%;
+  padding: 8rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/title/title.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.title_title__principal__JmM2L,
+.title_title__alternative__sYOIg {
+  width: 100%;
+  margin-bottom: 1.6rem;
+  text-align: start;
+}
+.title_title__principal__JmM2L span,
+.title_title__alternative__sYOIg span {
+  font-size: clamp(1.6rem, 5vw, 2rem);
+}
+.title_title__principal__JmM2L h2,
+.title_title__alternative__sYOIg h2 {
+  font-size: clamp(3.2rem, 6vw, 4.8rem);
+  font-family: var(--font-playfair);
+  font-weight: 900;
+}
+
+.title_title__principal__JmM2L span {
+  color: var(--primary-color);
+}
+.title_title__principal__JmM2L h2 {
+  color: var(--headline-color);
+}
+
+.title_title__principal__JmM2L span,
+.title_title__alternative__sYOIg span {
+  color: var(--primary-color);
+}
+.title_title__principal__JmM2L h2,
+.title_title__alternative__sYOIg h2 {
+  color: var(--headline-color-alternative);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/formulario/form.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.form_form__container__ay_qt {
+  width: 100%;
+  background: linear-gradient(var(--background-color), var(--background-color)) padding-box, linear-gradient(145deg, transparent 35%, var(--primary-color), var(--secondary-color)) border-box;
+  border: 2px solid transparent;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 2.4rem;
+}
+
+.form_form__I2HEr {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.form_form__group__ynvuc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.form_form__group__ynvuc label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.form_form__group__ynvuc input,
+.form_form__group__ynvuc textarea {
+  width: 100%;
+  padding: 1.4rem 1.8rem;
+  border-radius: 0.8rem;
+  background-color: transparent;
+  border: var(--border);
+}
+.form_form__group__ynvuc input:focus,
+.form_form__group__ynvuc textarea:focus {
+  outline: none;
+  border-color: var(--primary-color-border);
+}
+.form_form__group__ynvuc textarea {
+  min-height: 9.6rem;
+}
+
+.form_form__group__social__aQGm_ {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form_form__group__social__aQGm_ button {
+  flex: 1 1;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 1.4rem 1.8rem;
+  border-radius: 0.8rem;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: 1px solid var(--primary-color-border);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.form_form__group__social__aQGm_ button:active {
+  transform: scale(0.98);
+}
+.form_form__group__social__aQGm_ button:hover {
+  background-color: var(--primary-color-off);
+  border-color: var(--primary-color-off);
+}
+.form_form__group__social__aQGm_ a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 1.4rem 1.8rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--primary-color-border);
+  border-radius: 0.8rem;
+}
+.form_form__group__social__aQGm_ a:nth-child(2) {
+  background-color: #0a66c2;
+  color: #fff;
+  border: 1px solid #0a66c2;
+}
+.form_form__group__social__aQGm_ a:nth-child(2):hover {
+  background-color: #004182;
+  border-color: #004182;
+}
+.form_form__group__social__aQGm_ a:nth-child(3) {
+  background-color: #161b22;
+  color: #f0f6fc;
+  border: 1px solid #161b22;
+}
+.form_form__group__social__aQGm_ a:nth-child(3):hover {
+  background-color: #0d1117;
+  border-color: #0d1117;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/hero/hero.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.hero_container__lCJPM {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero_container__lCJPM::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50vh;
+  background-color: var(--primary-color);
+  width: 100vw;
+  animation: hero_line__9_6i7 5s ease;
+  z-index: -1;
+}
+
+.hero_hero__link__WouUL {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 2.5vw, 1.9rem);
+  font-weight: 900;
+  overflow: hidden;
+  animation: hero_entry__EDm3_ 4s ease-in-out forwards;
+}
+.hero_hero__link__WouUL:hover {
+  color: var(--secondary-color);
+}
+
+.hero_hero__title__D6uFD {
+  font-size: clamp(2.5rem, 10vw, 12rem);
+  font-weight: 900;
+  font-family: var(--font-playfair);
+}
+.hero_hero__title__D6uFD span {
+  color: var(--text-color);
+}
+.hero_hero__title__D6uFD:nth-child(1) {
+  animation: hero_entrySub__rUvl3 6s ease-in-out forwards;
+  color: var(--background-color);
+}
+.hero_hero__title__D6uFD:nth-child(2) {
+  animation: hero_entry__EDm3_ 4s ease-in-out forwards;
+}
+
+.hero_hero__subtitle__0f_Ky {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 300;
+  line-height: 1.3;
+  margin-top: -0.5rem;
+  color: var(--background-color);
+  animation: hero_entrySub__rUvl3 6s ease-in-out forwards;
+}
+
+.hero_hero__article__title__SvRWy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex: 1 1;
+  overflow: hidden;
+}
+
+.hero_hero__article__subtitle__A9yHV {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1 1;
+  overflow: hidden;
+}
+
+.hero_arrow__x7Vqp,
+.hero_arrow__x7Vqp:before {
+  position: absolute;
+  left: 50%;
+}
+
+.hero_arrow__x7Vqp {
+  width: 20px;
+  height: 20px;
+  bottom: 10%;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px var(--background-color) solid;
+  border-bottom: 2px var(--background-color) solid;
+}
+
+.hero_arrow__x7Vqp:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  border-left: none;
+  border-top: none;
+  border-right: 1px var(--background-color) solid;
+  border-bottom: 1px var(--background-color) solid;
+  animation: hero_arrow__x7Vqp 2s ease-in-out infinite;
+}
+
+@keyframes hero_arrow__x7Vqp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+@keyframes hero_line__9_6i7 {
+  0% {
+    top: 50%;
+    height: 3px;
+    transform: translateX(100%);
+  }
+  50% {
+    top: 50%;
+    height: 3px;
+    transform: translateX(0);
+  }
+  100% {
+    top: 50%;
+    transform-origin: top;
+    height: 50vh;
+  }
+}
+@keyframes hero_entry__EDm3_ {
+  0%, 60% {
+    transform: translateY(199px);
+  }
+  70%, 75% {
+    transform: translateY(140px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes hero_entrySub__rUvl3 {
+  0%, 60% {
+    transform: translateY(-199px);
+  }
+  70%, 75% {
+    transform: translateY(-140px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/cardProject/card.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card_card__BNss6 {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .card_card__BNss6 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-color: var(--background-color);
+  }
+}
+@media (min-width: 1025px) {
+  .card_card__BNss6 {
+    flex-direction: row;
+    padding-bottom: 8rem;
+    border-bottom: 1px dashed var(--text-color);
+  }
+  .card_card__BNss6:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+  .card_card__BNss6 a {
+    flex: 1 1;
+  }
+}
+.card_card__BNss6 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8;
+  filter: brightness(45%) grayscale(1);
+  cursor: pointer;
+  transition: filter 1s;
+}
+.card_card__BNss6 + .card_card__BNss6 {
+  margin-top: 8rem;
+}
+.card_card__BNss6:hover img {
+  filter: brightness(100%) grayscale(0);
+  opacity: 1;
+}
+
+.card_card__content__h4rPC {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  line-height: 1.4;
+  padding: 0 2rem 2rem;
+}
+.card_card__content__h4rPC h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.card_card__content__h4rPC ul {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.card_card__content__links__iYW2B {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.card_card__content__links__iYW2B a {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+.card_card__content__links__iYW2B a:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+@media (max-width: 300px) {
+  .card_card__content__links__iYW2B {
+    gap: 2rem;
+  }
+  .card_card__content__links__iYW2B a {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/projects/projects.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.projects_projects__hpSgn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  padding: 4rem 0;
+  background-color: var(--background-color-alternative);
+  gap: 5rem;
+}
+
+.projects_article__u_RJ5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: start;
+  gap: 5rem;
+  width: min(90%, 1440px);
+}
+.projects_article__u_RJ5 h4 {
+  font-size: clamp(3.2rem, 2.4rem + 1.6vw, 4.8rem);
+  font-family: var(--font-play);
+  font-weight: 900;
+  width: 100%;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/buttons/sectionButton/secBtn.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.secBtn_link__T4Ea7 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1.4rem 2.8rem;
+  font-size: 1.4rem;
+  border: 1.5px solid var(--primary-color-border);
+  border-radius: 3rem;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+.secBtn_link__T4Ea7:hover {
+  border: 1.5px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/resume/resume.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.resume_resume__Mfdkj {
+  padding-block: 3rem;
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume_resume__content__KwbDc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: start;
+  gap: 2.4rem;
+  margin-block: 2.4rem 8rem;
+}
+.resume_resume__content__KwbDc p {
+  font-size: clamp(1.7rem, 5vw, 2.4rem);
+  line-height: 1.3;
+}
+
+.resume_resume__link__CGkjE {
+  position: relative;
+  white-space: nowrap;
+}
+.resume_resume__link__CGkjE::after, .resume_resume__link__CGkjE::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  opacity: 0.3;
+  background-color: var(--text-color);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.resume_resume__link__CGkjE::after {
+  opacity: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.resume_resume__link__CGkjE:nth-child(1):after {
+  background-color: var(--primary-color);
+}
+.resume_resume__link__CGkjE:nth-child(2):after {
+  background-color: var(--secondary-color);
+}
+.resume_resume__link__CGkjE:nth-child(3):after {
+  background-color: var(--ternary-color);
+}
+.resume_resume__link__CGkjE:hover::after {
+  transform: scaleX(1);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/page.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_main__ux7yf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: min(90%, 1440px);
+}
