@@ -20,7 +20,7 @@ function Reveal({ children }: RevealProps) {
     }
   }, [controls, isInView]);
   return (
-    <div ref={ref} style={{ overflow: "hidden" }}>
+    <div ref={ref} style={{}}>
       <motion.div
         variants={{
           hidden: {
